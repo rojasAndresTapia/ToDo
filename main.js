@@ -30,7 +30,7 @@ const addTask = () => {
     
     const listTasks = arr.map(item => {
 
-       return `<li>${item}</li><button class="btn btn-success done">done</button><button class="btn btn-danger done">delete</button>`;
+       return `<li class="listItem"><p>${item}</p><div><button class="btn btn-success done">done</button><button class="btn btn-danger delete">delete</button></div></li>`;
     });
 
 

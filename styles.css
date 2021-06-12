@@ -18,3 +18,31 @@
 vertical-align: baseline;
 margin-bottom: 0px;
 }
+
+
+
+.list {
+    display: block;
+    margin-top:20px;
+
+
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:20px;
+   
+}
+
+.delete {
+    margin-left:10px;
+    
+}
+
+
+
+
+
+
